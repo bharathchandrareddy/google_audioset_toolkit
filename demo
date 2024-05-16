@@ -1,0 +1,3 @@
+!git clone https://github.com/bharathchandrareddy/google_audioset_toolkit.git
+pip install requirements.txt
+python process.py download -c "any_class_name_from_the_audioset"
