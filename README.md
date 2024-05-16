@@ -40,10 +40,9 @@ The following options control how the toolkit operates. The first list of option
 - `--csv_dataset` Path to CSV file containing AudioSet in YouTube-ID/timestamp/class form. Defaults to `./data/balanced_train_segments.csv`
 
 ## Project Overview
-This toolkit was developed as part of a project for my Master's thesis. This project involved training a WaveGAN model on subsets of the AudioSet dataset.  
+This toolkit was developed as part of a project for my Master's thesis.  
 
 AudioSet is publicly available in two formats; as a list of YouTube-IDs structured as CSV files, or as 128-dimensional feature vectors stored as TFRecord files.
-Neither of these formats could be used as training data for the model I was trying to train.
 * The problem with using the dataset's audio feature vectors is that in general, audio feature representations are not invertible.
 * The problem with using YouTube-IDs is that they are only references to where the audio can be found online, not the samples themselves.
 
