@@ -1,6 +1,5 @@
 # google_audioset_toolkit
 this python toolkit is created to download Google's audioset data from the csv files
-# audioset-processing [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aoifemcdonagh/audioset-processing/blob/master/demo.ipynb)
 Toolkit for downloading raw audio files from AudioSet.
 
 # Reference
